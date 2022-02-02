@@ -1,0 +1,58 @@
+.chart-bar{
+    height: 15vh;
+    border: 1px solid white;
+    border-radius: 3rem;
+    width: .5vw;
+}
+
+.chart-bar__inner{
+    height: 15vh;
+    width: .5vw;
+    
+}
+
+.chart-bar__fill{
+    background-color: blueviolet;
+    height: 100%;
+    width: 100%;
+}
+
+.chart-bar__label{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-left: -12px;
+}
+
+
+/* Mobile responsive */
+@media screen and (max-width: 600px){
+
+    .chart-bar{
+        width: 1vw;
+    }
+
+    .chart-bar__inner{
+        width: 1vw;
+    }
+
+    .chart-bar__label{
+        font-size: .7rem;
+        margin-left: -10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .chart-bar{
+        width: 1vw;
+    }
+
+    .chart-bar__inner{
+        width: 1vw;
+    }
+    
+    .chart-bar__label{
+        font-size: 1rem;
+        margin-left: -10px;
+    }
+}

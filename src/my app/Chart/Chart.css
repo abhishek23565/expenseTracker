@@ -1,0 +1,33 @@
+.chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+    height: 25vh;
+    border-radius: 1rem;
+    background-color: rgb(44, 43, 43);
+}
+
+
+/* Mobile responsive */
+@media screen and (max-width: 600px){
+    .chart{
+        width: 85vw;
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .chart{
+        width: 85vw;
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1280px){
+    .chart{
+        width: 85vw;
+        height: 30vh;
+    }
+}

@@ -1,0 +1,93 @@
+.expense-item{
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 20vw 25vw 20vw;
+    /* grid-template-rows: 15vh; */
+    border-radius: 1rem;
+    width: 60vw;
+    align-items: center;
+    box-shadow: 5px 5px 10px grey;
+    background-color: rgb(83, 81, 81);
+    margin: .8rem;
+}
+
+.expense-item__description{
+    color: white;
+    font-size: 1rem;
+    /* text-shadow: 2px 2px 4px rgb(241, 23, 89); */
+}
+
+.expense-item__price{
+    height: 8vh;
+    width: 14vw;
+    background-color: rgb(90, 11, 143);
+    font-size: 2rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+
+/* Mobile responsive */
+@media screen and (max-width: 600px){
+    .expense-item{
+        width: 85vw;
+        display: grid;
+        grid-template-columns: 25vw 30vw 25vw;
+        /* grid-template-rows: 20vh; */
+    }
+
+    .expense-item__description{
+        font-size: .7rem;
+    }
+
+    .expense-item__price{
+        width: 25vw;
+        font-size: 1.5rem;
+        height: 8vh;
+        padding-top: auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .expense-item{
+        width: 85vw;
+        display: grid;
+        grid-template-columns: 25vw 35vw 25vw;
+        grid-template-rows: 15vh;
+    }
+
+    .expense-item__description{
+        font-size: .7rem;
+    }
+
+    .expense-item__price{
+        width: 20vw;
+        font-size: 1.5rem;
+        height: 7vh;
+    }
+}
+
+
+/* Other Devices responsive */
+@media screen and (min-width: 950px) and (max-width: 1280px){
+.expense-item{
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 25vw 35vw 25vw;
+    grid-template-rows: 15vh;
+}
+
+.expense-item__description{
+    font-size: 1rem;
+}
+
+.expense-item__price{
+    width: 20vw;
+    font-size: 2rem;
+}
+
+}

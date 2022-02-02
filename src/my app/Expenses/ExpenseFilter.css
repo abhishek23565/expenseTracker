@@ -1,0 +1,61 @@
+.expense-filter{
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.expense-filter__control{
+    height: 5vh;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    font-weight: bolder;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    margin: 1rem 0 .5rem 0;
+}
+
+.expense-filter__select{
+    height: 7vh;
+    width: 12vw;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 600px){
+    .expense-filter{
+        width: 85vw;       
+    }
+
+    .expense-filter__select{
+        width: 25vw;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .expense-filter{
+        width: 85vw;       
+    }
+
+    .expense-filter__select{
+        width: 15vw;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1280px){
+    .expense-filter{
+        width: 85vw;       
+    }
+
+    .expense-filter__select{
+        width: 18vw;
+    }
+}
